@@ -1,6 +1,6 @@
 {
   "name": "qwik-filter-motion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Qwik Filter Tool with Animation",
   "engines": {
     "node": ">=15.0.0"

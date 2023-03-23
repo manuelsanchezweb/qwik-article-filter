@@ -1,6 +1,7 @@
 {
-  "name": "my-qwik-basic-starter",
-  "description": "App with Routing built-in (recommended)",
+  "name": "qwik-filter-motion",
+  "version": "1.0.0",
+  "description": "Qwik Filter Tool with Animation",
   "engines": {
     "node": ">=15.0.0"
   },
@@ -42,6 +43,5 @@
   },
   "dependencies": {
     "motion": "^10.15.5"
-  },
-  "version": "0.0.1"
+  }
 }

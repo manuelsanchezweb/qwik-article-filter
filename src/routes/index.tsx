@@ -23,7 +23,7 @@ export default component$(() => {
   let filteredPosts =
     selectedCategory.value === null
       ? posts
-      : filterPostsByCategory(posts, selectedCategory.value || "all");
+      : filterPostsByCategory(posts, selectedCategory.value);
 
   filteredPosts = filterPostsBySearchTerm(filteredPosts, selectedTerm.value);
 

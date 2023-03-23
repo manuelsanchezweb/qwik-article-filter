@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  padding: 100px 0;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover,
+a:focus {
+  color: #535bf2;
+}
+
+body {
+  padding: 0 20px;
+  display: grid;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f9f9f9;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
